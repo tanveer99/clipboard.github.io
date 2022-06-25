@@ -396,12 +396,13 @@ footer {
   background-color: hsla(202, 11%, 66%, 0.157);
   padding-top: 2em;
 }
-.info h5 {
+.info a {
   color: hsl(210, 10%, 33%);
   font-family: "Bai Jamjuree", sans-serif;
   font-weight: 400;
   font-size: 16px;
   cursor: pointer;
+  text-decoration: none;
 }
 .socialMedia {
   display: flex;
@@ -429,9 +430,7 @@ footer {
 .downloadMac:hover {
   background-color: hsla(233, 100%, 69%, 0.736);
 }
-.info h5:hover {
+.info a:hover {
   color: hsl(171, 66%, 44%);
 }
-body {
-  background-color: black;
-}
+
