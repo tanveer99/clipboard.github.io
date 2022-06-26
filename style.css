@@ -382,7 +382,7 @@ footer {
   margin-top: 6em;
   display: flex;
   width: 100%;
-  background-color: hsla(202, 11%, 66%, 0.108);
+  background-color: hsla(189, 11%, 88%, 0.184);
 }
 .footerLogo {
   display: flex;
@@ -390,7 +390,7 @@ footer {
   align-items: center;
   width: 50%;
   height: 15vh;
-  background-color: hsla(202, 11%, 66%, 0.157);
+  /* background-color: hsla(202, 11%, 66%, 0.157); */
 }
 .footerLogo img {
   width: 3em;
@@ -398,7 +398,7 @@ footer {
 .info {
   display: grid;
   grid-template-columns: 12em 12em 12em;
-  background-color: hsla(202, 11%, 66%, 0.157);
+  /* background-color: hsla(202, 11%, 66%, 0.157); */
   padding-top: 2em;
 }
 .info a {
@@ -414,7 +414,7 @@ footer {
   justify-content: center;
   align-items: center;
   width: 30%;
-  background-color: hsla(202, 11%, 66%, 0.157);
+  /* background-color: hsla(202, 11%, 66%, 0.157); */
 }
 .socialMedia img {
   padding: 10px;
@@ -486,7 +486,14 @@ footer {
     width: 100%;
   }
   .imageSpan {
-    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .imageSpan img {
+    width: 75%;
+    position: relative;
+    right: 0;
   }
   .listDiv {
     right: 0;
@@ -521,18 +528,20 @@ footer {
     width: 100%;
   }
   .info {
-    grid-template-columns: 5em;
+    grid-template-columns: 22em;
     row-gap: 16px;
     place-content: center;
     text-align: center;
     /* margin-top: -2em; */
     column-gap: 12px;
+    width: 100%;
   }
   .info a {
     font-size: 20px;
-    letter-spacing: 2px;
+    width: 100%;
   }
   .footerLogo {
+    margin-top: 2em;
     height: 4em;
     width: 100%;
     /* overflow: hidden; */
@@ -546,8 +555,60 @@ footer {
     width: 100%;
   }
   .socialMedia img {
-    width: 20%;
-    padding: 1em;
+    width: 15%;
+    padding: 2em 1em;
+  }
+  .listContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .thirdSection img {
+    width: 100%;
+  }
+  .featureOne p {
+    font-family: "Bai Jamjuree", sans-serif;
+    color: hsl(201, 11%, 66%);
+    text-align: center;
+    font-size: 18px;
+    /* line-height: 25px; */
+  }
+  .featureTwo p {
+    font-family: "Bai Jamjuree", sans-serif;
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+    text-align: center;
+    /* line-height: 12px; */
+    /* margin-bottom: 1.5em; */
+    /* line-height: 1.5em; */
+  }
+  .featureThree p {
+    font-family: "Bai Jamjuree", sans-serif;
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+    /* line-height: 1.5em; */
+    text-align: center;
+  }
+  .listOne p {
+    /* font-weight: 400; */
+    color: hsl(201, 11%, 66%);
+    font-size: 16px;
+    line-height: 25px;
+    font-family: "Bai Jamjuree", sans-serif;
+  }
+  .listSecond p {
+    /* font-weight: 400; */
+    color: hsl(201, 11%, 66%);
+    font-size: 16px;
+    line-height: 25px;
+    font-family: "Bai Jamjuree", sans-serif;
+  }
+  .listThird p {
+    /* font-weight: 400; */
+    color: hsl(201, 11%, 66%);
+    font-size: 16px;
+    line-height: 25px;
+    font-family: "Bai Jamjuree", sans-serif;
   }
 }
-
